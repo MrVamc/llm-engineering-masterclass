@@ -1,0 +1,76 @@
+# LLM Engineering Masterclass
+
+A comprehensive, hands-on masterclass on LLM Engineering - from foundations to production deployment. Conducted by [GrowAI](https://growai.in).
+
+## Course Overview
+
+| Detail | Value |
+|--------|-------|
+| Total Sessions | 20 (2 Inductions + 16 Core + 2 Spare) |
+| Session Duration | 2 hours each |
+| Total Teaching Hours | 36 hours |
+| Schedule | Saturday + Sunday, 10:00 AM - 12:00 PM |
+| Duration | 9 weekends |
+| Modules | 9 |
+
+## Session Breakdown
+
+| Session | Day | Module | Topics |
+|---------|-----|--------|--------|
+| 1 | Sat, 7 Jun | Induction | GrowAI intro, mentor intro, career overview, roadmap walkthrough, setup homework |
+| 2 | Fri, 13 Jun | Induction | Module walkthrough, tools overview, Q&A |
+| 3 | Sat | Module 1 | AI/ML/DL/LLM hierarchy, Transformer intuition, Open-source LLM landscape, GenAI lifecycle, HuggingFace orientation, Environment setup, First model with Ollama |
+| 4 | Sun | Module 2.1 | Python for AI: data structures (ChatML), functions + type hints, file I/O + JSON/YAML, error handling, Pydantic, async/await, virtual environments, project structure |
+| 5 | Sat | Module 2.2 | Neural network intuition, PyTorch fundamentals, Training loop, Transformer architecture, Tokenizers & embeddings, HuggingFace Transformers library |
+| 6 | Sun | Module 3 | Open-source LLM family tree, Model sizes & quantization (GGUF, AWQ), Ollama deep dive, vLLM for production, Cost economics |
+| 7 | Sat | Module 4.1 | Prompt anatomy, Zero-shot/few-shot/CoT/ReAct, JSON mode & structured outputs, Pydantic + Instructor, Function calling & tool use |
+| 8 | Sun | Module 4.2 + 4.3 | LangChain (LCEL, chains, memory), LlamaIndex (documents, nodes, indexes, query engines), LlamaParse, Capstone: multi-tool agent |
+| 9 | Sat | Module 5 (Part 1) | RAG architecture, Embedding models, Chunking strategies, Vector databases (Milvus, ChromaDB), Index types (IVF, HNSW) |
+| 10 | Sun | Module 5 (Part 2) | Hybrid search (BM25 + vector + RRF), Reranking (cross-encoders, ColBERT), Metadata filtering, Multilingual RAG, Capstone: production RAG |
+| 11 | Sat | Module 6 (Part 1) | Why basic RAG fails, Multi-hop RAG, Agentic RAG (Self-RAG, CRAG), RAG evaluation |
+| 12 | Sun | Module 6 (Part 2) | Knowledge graphs (Neo4j), KG construction with LLMs, Cypher query generation, GraphRAG architecture, Capstone: GraphRAG |
+| 13 | Sat | Module 7 (Part 1) | Agent fundamentals (ReAct, planning, tools), LangGraph (state, nodes, edges, routing), Human-in-the-loop, Memory systems |
+| 14 | Sun | Module 7 (Part 2) | Multi-agent patterns (supervisor, peer-to-peer), AutoGen, Model Context Protocol (MCP), Build custom MCP server, Capstone: multi-agent system |
+| 15 | Sat | Module 8 (Part 1) | Fine-tune vs RAG vs prompting decision tree, LoRA/QLoRA, Unsloth, Training data preparation, Synthetic data generation |
+| 16 | Sun | Module 8 (Part 2) | Live fine-tuning (Unsloth + Colab), LoRA config, Quantization (GGUF/AWQ), Deploy to Ollama, DPO intro |
+| 17 | Sat | Module 9 (Part 1) | FastAPI for LLM APIs (async, streaming/SSE), Docker & Docker Compose, vLLM at scale, Cost optimization |
+| 18 | Sun | Module 9 (Part 2) | LLM Evals (DeepEval, LLM-as-judge), Production observability, Complete architecture review, Capstone assembly |
+| 19 | Sat | Spare 1 | Extended capstone / career session / overflow / deep-dive review |
+| 20 | Sun | Spare 2 | Student presentations / mock interviews / course close + certificates |
+
+## Week 1 - Foundations + Python for AI
+
+### Session 3 (Saturday) - How AI Actually Works + Run Your First Model
+
+Covers the complete AI/ML/DL/LLM hierarchy with depth, Transformer intuition (tokens, attention, generation), the open-source LLM landscape (Llama, Mistral, Qwen, Phi), environment setup, and running your first model with Ollama locally. Every concept is immediately demonstrated hands-on.
+
+**Session Outcome:** By the end of this session, you will understand the AI to ML to DL to LLM hierarchy, how Transformers work intuitively, and have run your first open-source model.
+
+**Homework:** Installation and setup tasks (details to be added).
+
+---
+
+## Prerequisites
+
+- Python 3.10+
+- [Ollama](https://ollama.ai) installed locally
+- [HuggingFace](https://huggingface.co) account
+- Google Colab access (for fine-tuning sessions)
+- Basic programming knowledge
+
+## Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| LLMs | Llama 3, Mistral, Qwen, Phi |
+| Frameworks | LangChain, LlamaIndex, LangGraph |
+| Vector DBs | Milvus, ChromaDB |
+| Fine-tuning | Unsloth, QLoRA |
+| Serving | Ollama, vLLM |
+| Deployment | FastAPI, Docker, Docker Compose |
+| Evals | DeepEval |
+| Graph | Neo4j |
+
+## License
+
+MIT
