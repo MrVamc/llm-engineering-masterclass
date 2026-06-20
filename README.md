@@ -40,13 +40,17 @@ A comprehensive, hands-on masterclass on LLM Engineering - from foundations to p
 
 ## Week 1 - Foundations + Python for AI
 
+Materials: [week-1/](./week-1/)
+
 ### Session 3 (Saturday) - How AI Actually Works + Run Your First Model
 
 Covers the complete AI/ML/DL/LLM hierarchy with depth, Transformer intuition (tokens, attention, generation), the open-source LLM landscape (Llama, Mistral, Qwen, Phi), environment setup, and running your first model with Ollama locally. Every concept is immediately demonstrated hands-on.
 
 **Session Outcome:** By the end of this session, you will understand the AI to ML to DL to LLM hierarchy, how Transformers work intuitively, and have run your first open-source model.
 
-**Homework:** Installation and setup tasks (details to be added).
+**Session Notes:** [session-3-notes.md](./week-1/session-3/session-3-notes.md)
+
+**Homework:** [Setup Guide](./week-1/session-3/setup-guide.md) - Install Python, Ollama, and your code editor before Session 4.
 
 ---
 
